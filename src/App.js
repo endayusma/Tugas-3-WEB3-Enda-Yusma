@@ -12,11 +12,11 @@ const cardData = [
     job : "Mahasiswa"
   },
   {
-    nama : "Geza Ramda ",
+    nama : "Geza Ramda Ciptaan",
   },
   {
     nama : "Lina Zulfikar",
-    job : "Mahasiswa"
+    
   }
 ]
 
@@ -33,6 +33,7 @@ function App() {
         
     <Card title="Nama" bordered={false} style={{ width: 300 }}>
       <p>{data.nama}</p>
+   
       
     </Card>
  
